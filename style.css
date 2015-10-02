@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+body {
+  padding-top: 10px;
+  background: #000;
+  font-family: 'Inconsolata'!important;
+  color: white;
+}
+.navbar-inverse{
+	background:#000;
+}
+.top-border{
+	/*border:8px solid green;*/
+}
+.little-bit-right {
+	margin-left: 15px;
+}
+.margin-top {
+	margin-top:15px;
+}
+.bluefont {
+	color: blue;
+}
+
+.greenfont {
+	color: green;
+}
+
+.butterfly-image {
+	width:100%;
+	height:auto;
+}
+
+@media all and (max-width: 768px) {
+	.butterfly-image {
+		width:50%;
+		height:auto;
+
+	}
+	.butterfly-image-container{
+		text-align: center;
+	}
+	.main-content-container {
+    	
+	}
+}
+
+.populate-content {
+word-wrap: break-word;
+white-space: normal;
+}

@@ -1,0 +1,95 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Aritra's Portfolio</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+  <div class="container top-border">
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Aritra's Portfolio;</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">/Home</a></li>
+            <li><a href="#about">/About</a></li>
+            <li><a href="#contact">/Skills</a></li>
+            <li><a href="#">/Projects</a></li>
+            <li><a href="#contact">/Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+  </div>
+    <div class="container top-border margin-top">
+      <div class="row">
+        <div class="col-sm-5 col-xs-12">
+          <div class='butterfly-image-container'>
+            <img src="./images/Spying-at-the-Wall-5---Butterfly.jpg" class="butterfly-image">
+          </div>
+        </div>
+
+        <div class="col-sm-7 col-xs-5">
+          <div class="main-content-container">
+            <p>Welcome to <b>Aritra's Portfolio;</b></p>
+            <p>You HTTP <?php echo $_SERVER['REQUEST_METHOD'];?>-ed to:</p>
+            <div class='little-bit-right'>
+              <p>Host: <a class='greenfont'><?php echo $_SERVER['HTTP_HOST']; ?>;</a><br>
+              Port: <a class='greenfont'><?php echo $_SERVER['SERVER_PORT'];?>;</a></p>
+            </div>
+            <p> From: </p>
+            <div class='little-bit-right'>
+              <p>Your IP: <a class="bluefont"><?php echo $_SERVER['REMOTE_ADDR'];?>;</a><br>
+              Your Port: <a class="bluefont"><?php echo $_SERVER['REMOTE_PORT'];?>;</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-xs-7">
+          <p class="populate-content"><span class='greenfont'> aritra$</span> ./print_about_me_and_my_cv.sh >/About</p>
+          <p class="populate-content"><span class='greenfont'> aritra$</span> ./print_my_technical_skills_and_skill_level.sh >/Skills </p>
+          <p class="populate-content"><span class='greenfont'> aritra$</span> ./print_my_projects_which_I_have_completed.sh >/Projects </p>
+          <p class="populate-content"><span class='greenfont'> aritra$</span> ./print_contact_information_with_Linkedin_facebook_profile.sh >/Contact </p>
+
+        </div>
+      </div>
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  
+
+  </body>
+
+</html>
